@@ -1,0 +1,16 @@
+#title{
+    margin-top: 25px;
+    font-size: 25px;
+    padding: 5px;
+    font-weight: bold;
+    font-family: monospace;
+}
+canvas{
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{box-shadow: 1px 1px 36px black;}
+    to{box-shadow: 1px 1px 36px lightblue;}
+}
